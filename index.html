@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="mainApp" ng-controller="mainCtrl as main">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <!--<link href="Style.css" type="text/css" rel="stylesheet">-->
+   
+       <link rel="shortcut icon" href="">
+    
+</head>
+
+<body>
+    <h2>{{main.title}}</h2>
+    
+    
+
+        
+    <div class="col-md-6 col-lg-6"><i-g-pie data="main.pieData" options="main.pieOptions" ></i-g-pie></div>
+     <div class="col-md-6 col-lg-6"><i-g-pie data="main.yieldData" options="main.yieldDataOptions" ></i-g-pie></div>
+    <div class="col-md-6 col-lg-6"><i-g-donut data="main.donutData" options="main.donutOptions" ></i-g-donut></div>
+
+    
+
+  
+    
+<!-- <i-g-bar data="main.revenue"></i-g-bar>-->
+    <input type="text" ng-model="main.pieData">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+    <!-- Angular Material Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./module.js"></script>
+    <script src="./directive.js"></script>
+  
+    <script src="./service.js"></script>
+    <script src="./controller.js"></script>
+    
+
+</body>
+
+</html>

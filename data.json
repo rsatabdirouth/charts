@@ -1,0 +1,70 @@
+{
+    "barData": [
+        {
+            "label": "1-07-17",
+            "Revenue": "10000"
+     },
+        {
+            "label": "2-07-17",
+            "Revenue": "5000"
+     },
+        {
+            "label": "3-07-17",
+            "Revenue": "20000"
+     },
+        {
+            "label": "4-07-17",
+            "Revenue": "7000"
+     },
+        {
+            "label": "5-07-17",
+            "Revenue": "90000"
+     },
+        {
+            "label": "6-07-17",
+            "Revenue": "1000"
+     }
+        ],
+    
+    
+"pieData": [
+          ["Mortgage", 3],
+          ["flightdelay", 1],
+          ["Health", 1],
+          ["home", 1],
+          ["Pension", 2]
+        ],
+    
+
+"donutData":  [
+         
+          ["VisionaryMarkets",     11],
+          ["SyneCraft",      2],
+          ["LeadCoof",  2],
+          ["LeadBay", 2],
+          ["BuyToLet",    7]
+        ],
+    
+  "revenueData" : [
+          ["Hello Leads", 1000, 400, 200],
+          ["Pension Matters", 1170, 460, 250],
+          ["Amor", 660, 1120, 300],
+          ["Lead Bay", 1030, 540, 350]
+  ],
+    
+    "yieldData":[
+        ["profit",60],
+        ["Cost",40]
+       
+    ],
+    
+    "MortgageSplit":
+    [
+         // ['BuyerName', 'BuyToLet', 'Remortgage', 'Others'],
+          ["Hello Leads", 1000],
+          ["Pension Matters", 1170],
+          ["Amor" , 660],
+          ["Lead Bay", 1030]
+        ]
+          
+}
